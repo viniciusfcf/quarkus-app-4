@@ -17,7 +17,7 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("petrobras")
-    public String hello() {
-        return "Hello RESTEasy petrobras";
+    public String hello2() {
+        return "Hello petrobras";
     }
 }
